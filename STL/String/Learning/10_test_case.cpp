@@ -1,3 +1,4 @@
+//PROBLEM -> Don't understand the code
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -8,15 +9,15 @@ int main(){
 
     optimize();
 
-    int t;
-    cin>>t;
-    cin.ignore(); // IMPORTANT: Consume the newline character left by "cin >> t"
-
+    string ts;
+    getline(cin, ts);// Read the number of test cases as a line
+    int t = stoi(ts); //string to integer
+    
     for(int i=1; i<=t; i++){
         string s;
         getline(cin, s);
 
-        cout<<"case"<< i <<" "<< s <<endl;
+        cout<< "Case "<<i<<": "<<s<<endl;
     }
         
     return 0;
