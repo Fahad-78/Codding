@@ -6,7 +6,7 @@ int main(){
 
     vector<int> tmp;
 
-    tmp = v;
+    tmp = v; //Copy the data from v vector and transfer it to tmp vector. This will not erase the v vector completely
 
     cout<<"Size of tmp: "<<tmp.size()<<endl;
     cout<<"Values of tmp: ";

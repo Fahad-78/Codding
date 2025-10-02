@@ -3,10 +3,11 @@
 using namespace std;
 
 int main(){
-    vector<int> v(10);
+    vector<int> v(10); //Declaring vector and size in the same time
 
     int n;
-    cin>>n;
+    cin>>n; //Declaring new size
+
     for(int i=0; i<n; i++){
         cin>> v[i];
     }

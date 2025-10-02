@@ -10,7 +10,7 @@ int main(){
     }
     cout<<endl;
 
-    v.clear();
+    v.clear();  //For clear the vector completely
 
     cout<<"After clear: ";
     cout<<"Size: "<<v.size()<<endl;
@@ -18,7 +18,7 @@ int main(){
         cout<<v[i]<<" ";
     }
     cout<<endl;
-    cout<<"Empty or not: "<<v.empty()<<endl; //If empty return 1 otherwise 0
+    cout<<"Empty or not: "<<v.empty()<<endl; //If empty, return 1 otherwise 0
 
     v = {1,2,3,4};
     cout<<"Before: "<<v.size()<<endl;
