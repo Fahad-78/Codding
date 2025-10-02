@@ -13,6 +13,7 @@ int main(){
     v.push_back (6);
 
     cout<< v[2] <<endl;
+    
     v[2] =  10; //Change value of specific vector
     cout<< v[2] <<endl;
 
