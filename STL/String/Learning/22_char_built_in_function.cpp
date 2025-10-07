@@ -21,5 +21,8 @@ int main(){
     char f4 = tolower(c);
     cout<< f4 <<endl;
 
+    char f5 = toupper(f4);
+    cout<< f5 <<endl;
+
     return 0;
 }
