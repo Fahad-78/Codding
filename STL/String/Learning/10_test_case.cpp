@@ -1,4 +1,3 @@
-//PROBLEM -> Don't understand the code
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,13 +8,15 @@ int main(){
 
     optimize();
 
-    string ts;
-    getline(cin, ts);// Read the number of test cases as a line
-    int t = stoi(ts); //string to integer
+    int t;
+    cin>> t;
     
     for(int i=1; i<=t; i++){
         string s;
+        char c;
+        cin>> c;
         getline(cin, s);
+        s = s+c;
 
         cout<< "Case "<<i<<": "<<s<<endl;
     }
