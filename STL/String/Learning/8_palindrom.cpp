@@ -9,7 +9,7 @@ using namespace std;
 
 int main(){
 
-    optimize()
+    optimize();
 
     string s;
     cout<<"Enter your string: ";
