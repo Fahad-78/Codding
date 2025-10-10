@@ -9,33 +9,19 @@ int main(){
 
     vector< pair< string, int>> v;
 
-    int n;
-    cin>> n;
+    v.push_back({"Shahriar" , 21});
+    v.push_back({"momo" , 13});
+    v.push_back({"sharif" , 34});
+    v.push_back({"Shahriar" , 35});
+    v.push_back({"sharif" , 34});
+    v.push_back({"Shahriar" , 21});
+    v.push_back({"momo" , 13});
 
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
-    for(int i=0; i<n; i++){
-        string s;
-        getline(cin , s);
-
-        size_t last_space_pos = s.find_last_of(' ');
-
-        string name = s.substr(0, last_space_pos);
-
-        int a = stoi(s.substr(last_space_pos + 1));
-
-        
-        v.push_back({name , a});
-    }
 
     sort(v.begin(), v.end());
-    //int sz = unique(v.begin() , v.end())-v.begin();
-    v.erase(unique(v.begin() , v.end()) , v.end());
+    int sz = unique(v.begin() , v.end())-v.begin();
 
-    cout<< "Size of unique: "<< v.size() << endl;
+    for(int i=0; i<sz; i++) cout<< v[i].first << ' ' << v[i].second <<endl;
 
-    for(auto u:v){
-        cout<< u.first << " " << u.second << endl;
-    }
-    cout<<endl;
+    return 0;
 }
