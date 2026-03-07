@@ -15,3 +15,16 @@ b = 3
 a,b = b,a
 print(a,end=',')
 print(b)
+
+#Using others for too many variable problem
+a,b,*others = (1,2,3,4,5)
+print(a,b)
+print(others)
+
+# Zip of tuple
+a = (1,2,3,4,5)
+b = (6,7,8,9,0)
+
+print(zip(a,b))
+print(list(zip(a,b)))
+print(tuple(zip(a,b)))
