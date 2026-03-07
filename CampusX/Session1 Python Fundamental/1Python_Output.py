@@ -1,22 +1,11 @@
-#Python is a case sensitive language
-print('Hello World!')
-
-print('Salman Khan')
-
+#Python is a case sensative language
+print("Hallo World")
+print('Md.Fahad Sarker')
 print(7)
-
-print(7.7)
-
-print(True)
-
-print('Hello', 1, 4.5, True)
-
-#Changing the seperate behaviour 
-print('Hello', 1, 4.5, True, sep=',')
-
+print(7.5)
+print('Hello',5,7.8,True)
+print('Fahad',4,5.6,False,sep='/')
 print('Hello')
 print('World')
-
-#Changing the endline behaviour
-print('Hello',end=' ')
+print('Hello',end='-')
 print('World')
