@@ -28,6 +28,11 @@ print(type(ss))
 s7 = {1,2,3,3,4,5,5,6}
 print(s7)
 
-#Set can't have mutable items
-s8 = {1,2,3,4,[6, 7,8,9]}
-print(s8)
+# #Set can't have mutable items
+# s8 = {1,2,3,4,[6, 7,8,9]}
+# print(s8)
+
+#Proving that set is unordered
+s11 = {1,2,3}
+s22 = {3,2,1}
+print(s11 == s22)
