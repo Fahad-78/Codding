@@ -24,3 +24,5 @@ while True:
         print(x)
     except:
         print("Invalide input. Please enter only valid integer or 'q' to quit.")
+
+print(is_even.__doc__)
