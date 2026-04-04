@@ -19,5 +19,8 @@ while True:
     if user_input == "q":
         print("Goodbye!")
         break
-    x = is_even(int(user_input))
-    print(x)
+    try:
+        x = is_even(int(user_input))
+        print(x)
+    except:
+        print("Invalide input. Please enter only valid integer or 'q' to quit.")
