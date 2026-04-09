@@ -1,0 +1,13 @@
+/*External CSS*/
+body{
+    background-color:black;
+}
+h1{
+    color:red;
+}
+.odd{
+    color:green
+}
+.even{
+    color:blue
+}
