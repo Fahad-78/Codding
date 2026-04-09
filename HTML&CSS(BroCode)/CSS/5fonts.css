@@ -1,0 +1,19 @@
+@font-face{
+    src:url(5Google_fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+    font-family:OpenSans-Italic-VariableFont_wdth,wght
+}
+
+@font-face{
+    src:url(5Google_fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf);
+    font-family:Roboto-Italic-VariableFont_wdth\,wght
+}
+
+h1{
+    font-family:'OpenSans-Italic-VariableFont_wdth,wght','Courier New', Courier, monospace
+}
+p{
+    font-family:'Roboto-Italic-VariableFont_wdth\,wght','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5em; /*We can also use px*/
+    font-weight:lighter;
+    font-style:italic
+}
