@@ -1,0 +1,19 @@
+/*External CSS*/
+body{
+    background-color:hsl(210, 11%, 14%)
+}
+h1{
+    color:tomato
+}
+#p1{
+    color:rgb(102,222,255)
+}
+#p2{
+    color:#59ff5f
+}
+#p3{
+    color:hsl(230, 85%, 23%)
+}
+#p4{
+    color:blue
+}
