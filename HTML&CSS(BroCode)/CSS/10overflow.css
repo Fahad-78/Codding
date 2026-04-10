@@ -1,0 +1,25 @@
+#div1{
+    border:2px solid;
+    height: 50px;
+    overflow:visible;
+}
+#div2{
+    border:2px solid;
+    height: 50px;
+    overflow:hidden;
+}
+#div3{
+    border:2px solid;
+    height: 50px;
+    overflow:clip;
+}
+#div4{
+    border:2px solid;
+    height: 50px;
+    overflow:scroll;
+}
+#div5{
+    border:2px solid;
+    height: 50px;
+    overflow:auto;
+}
